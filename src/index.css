@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+table {
+	background-color: lightblue;
+	width: 90%;
+	padding: 60px;
+	margin-top: 16px;
+}
+thead {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+.data-row {
+	display: flex;
+	margin-bottom: 16px;
+}
+tr {
+	width: calc(100% / 3);
+}
+
+h1 {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	position: absolute;
+	top: 0;
+	background: red;
+	width: 100%;
+	text-align: center;
+}
+
+div.button {
+	display: flex;
+	width: 90%;
+	justify-content: flex-end;
+	margin-top: 16px;
+}
+
+button {
+	padding: 10px 16px;
+	background: lightskyblue;
+}
+
+.shift-btn {
+	position: absolute;
+	top: 0;
+	padding: 10px 16px;
+	background: lightskyblue;
+}
+
+/* task 2 */
+
+.main-box {
+	width: 31%;
+	background: #fff;
+	margin-top: 48px;
+	text-align: center;
+	padding: 61px;
+	border: 1px solid black;
+	border-radius: 16px;
+}
+
+.content-box {
+	display: flex;
+	outline: 1px dotted black;
+	margin-bottom: 40px;
+}
+
+.content-box button {
+	margin: 0 16px;
+	border-radius: 50%;
+	padding: 12px 18px;
+}
+
+.reset {
+	padding: 8px 32px;
+	background: red;
+	color: white;
+}
